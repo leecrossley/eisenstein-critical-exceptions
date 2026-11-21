@@ -3,7 +3,7 @@
 Fix $K=\mathbb Q(\sqrt{-3})$, let $\chi_4$ and $\chi_{12}$ be the primitive real characters of discriminants $-4$ and $12$, and write
 
 $$
-A_b(y)=-\sum_{\mathfrak p\nmid6}\chi_4(N\mathfrak p)\log(N\mathfrak p)\,W_b(N\mathfrak p/y).
+A_b(y)=-\sum_{\mathfrak p\nmid6}\chi_4(N\mathfrak p)\log(N\mathfrak p)\thinspace W_b(N\mathfrak p/y).
 $$
 
 The weight is $b(1-1/t)$ on $1<t\le b$, $b^2/t-1$ on $b<t<b^2$ and zero elsewhere. Both outer endpoints have weight zero. Each retained ideal contributes to the class of its absolute norm. We assume GRH for $L(s,\chi_4)$ and $L(s,\chi_{12})$ throughout.
@@ -12,10 +12,10 @@ The weight is $b(1-1/t)$ on $1<t\le b$, $b^2/t-1$ on $b<t<b^2$ and zero elsewher
 
 In $K$, a rational prime $p>3$ congruent to 1 modulo 3 splits into two prime ideals of norm $p$. A prime congruent to 2 modulo 3 is inert and gives one ideal of norm $p^2$. The character $\chi_{12}$ is the product of $\chi_4$ with the quadratic character of $K$. Thus for the full ideal prime-power sum the factors are $L(s,\chi_4)L(s,\chi_{12})$ up to the omitted Euler factors. The factors have the same character value at split primes and opposite values at inert primes. At 2 both primitive factors have zero Dirichlet coefficient. At 3 the excess primitive Euler factor contributes $O_b(1)$ in a compact multiplicative window, since only boundedly many powers of 3 fit inside it. [Exact factorization and earlier endpoint proof](https://github.com/leecrossley/eisenstein-prime-window-transition/blob/c1e11263b1cf6e8de187742f246b32992455658f/PROOF.md)
 
-Write $\vartheta_K^*(x)=\sum_{\mathfrak p\nmid6,\ N\mathfrak p\le x}\log N\mathfrak p$. Splitting gives
+Write $\vartheta_K^\ast(x)=\sum_{\mathfrak p\nmid6,\ N\mathfrak p\le x}\log N\mathfrak p$. Splitting gives
 
 $$
-\vartheta_K^*(x)=2\vartheta(x;3,1)+O(\sqrt x\log(2x))
+\vartheta_K^\ast(x)=2\vartheta(x;3,1)+O(\sqrt x\log(2x))
                  =x+O\big(xe^{-c_0\sqrt{\log x}}\big),\qquad x\ge2,
 $$
 
@@ -24,17 +24,17 @@ for some $c_0>0$. In the first equality the inert primes have $p\le\sqrt x$. The
 All retained prime squares carry character $+1$. Their contribution when higher powers are removed from the signed explicit formula is
 
 $$
-\int W_b((u/\sqrt y)^2)\,d\vartheta_K^*(u)
-    =B_b\sqrt y+O_b\big(\sqrt y\,e^{-c_1\sqrt{\log y}}\big),
-\qquad B_b=2\sqrt b\,(\sqrt b-1)^2 .
+\int W_b((u/\sqrt y)^2)\thinspace d\vartheta_K^\ast(u)
+    =B_b\sqrt y+O_b\big(\sqrt y\thinspace e^{-c_1\sqrt{\log y}}\big),
+\qquad B_b=2\sqrt b\thinspace(\sqrt b-1)^2 .
 $$
 
-Indeed the integral is supported on $[\sqrt y,b\sqrt y]$. Replacing $d\vartheta_K^*$ by $du$ gives $\sqrt y\int_1^b W_b(v^2)\,dv=B_b\sqrt y$. Integration by parts bounds the remainder by the supremum of the counting error on that interval times the total variation $2(b-1)$ of the weight. A smaller constant $c_1>0$ absorbs the change of scale. The powers of exponent at least three have total absolute contribution $O_b(y^{1/3}\log^2 y)$ by counting possible rational primes and exponents. This allows either sign for the cubes.
+Indeed the integral is supported on $[\sqrt y,b\sqrt y]$. Replacing $d\vartheta_K^\ast$ by $du$ gives $\sqrt y\int_1^b W_b(v^2)\thinspace dv=B_b\sqrt y$. Integration by parts bounds the remainder by the supremum of the counting error on that interval times the total variation $2(b-1)$ of the weight. A smaller constant $c_1>0$ absorbs the change of scale. The powers of exponent at least three have total absolute contribution $O_b(y^{1/3}\log^2 y)$ by counting possible rational primes and exponents. This allows either sign for the cubes.
 
 Let $t=\log(by)$. If $\rho=1/2+i\tau$, the Mellin coefficient of the weight at $\rho$ has phase $e^{i\tau\log b}$ and magnitude
 
 $$
-h_b(\tau)=\frac{\sqrt b\,[b+1-2\sqrt b\cos(\tau\log b)]}{1/4+\tau^2}>0 .
+h_b(\tau)=\frac{\sqrt b\thinspace[b+1-2\sqrt b\cos(\tau\log b)]}{1/4+\tau^2}>0 .
 $$
 
 Neither factor has a central zero. For positive real $s$, the Dirichlet series for $\chi_4$ has positive paired terms. For $\chi_{12}$ each block is $f(12j+1)-f(12j+5)-f(12j+7)+f(12j+11)>0$, since $f(x)=x^{-s}$ has decreasing positive differences $f(x)-f(x+4)$. Grouping complete periods is valid for real $s>0$. The zero sums converge absolutely by the quadratic denominator and standard zero counting. The trivial zeros, including the even character's possible contribution at $s=0$, cost $O_b(1)$ for $y\ge2$.
@@ -55,7 +55,7 @@ The identity uses the exact root, even though its value is specified numerically
 
 ## One zero controls the logarithmic measure
 
-Fix any $\lambda\in\Gamma$. For $d(x)=\operatorname{dist}(x,\pi(2\mathbb Z+1))$ we have $0\le d(x)\le\pi$ and
+Fix any $\lambda\in\Gamma$. For $d(x)=\mathrm{dist}(x,\pi(2\mathbb Z+1))$ we have $0\le d(x)\le\pi$ and
 
 $$
 1+\cos x=2\sin^2(d(x)/2)\ge2d(x)^2/\pi^2.
@@ -70,7 +70,7 @@ $$
 On any unit interval $[U,U+1]$, the admissible values of $t$ lie in a bounded number of intervals about the points $(2k+1)\pi/\lambda$, each of length $O_\lambda(e^{-\eta\sqrt U/2})$. Indeed their centres have constant spacing and the widths tend to zero. Since $dt=dy/y$, summation over the unit intervals starting at $T=\log(bY)$ bounds the exceptional measure on $[Y,\infty)$. For $a>0$ the tail $\sum_{n\ge0}e^{-a\sqrt{T+n}}$ is $O_a((1+\sqrt T)e^{-a\sqrt T})$ by the integral test. A smaller positive exponent absorbs the polynomial. It follows that
 
 $$
-\int_{\{y\ge Y\,:\,A_{b_K}(y)\le0\}}\frac{dy}{y}\ll e^{-c\sqrt{\log Y}}
+\int_{\lbrace y\ge Y\thinspace:\thinspace A_{b_K}(y)\le0\rbrace}\frac{dy}{y}\ll e^{-c\sqrt{\log Y}}
 $$
 
 for some $c>0$. Any bounded interval in $[1,\infty)$ has finite logarithmic measure. This proves the finite-measure and density-one statements, including ties.
@@ -80,7 +80,7 @@ for some $c>0$. Any bounded interval in $[1,\infty)$ has finite logarithmic meas
 Take distinct $\lambda,\mu\in\Gamma$ and let $\alpha=\mu/\lambda$. For large $t$ choose odd positive integers $q,p$ nearest to $\lambda t/\pi,\mu t/\pi$, respectively. Then
 
 $$
-\pi|q\alpha-p|\le\alpha\,d(\lambda t)+d(\mu t),\qquad q\asymp_{\lambda}t.
+\pi|q\alpha-p|\le\alpha\thinspace d(\lambda t)+d(\mu t),\qquad q\asymp_{\lambda}t.
 $$
 
 If the exceptional scales are unbounded, the preceding one-zero estimate applied to both phases yields an unbounded sequence of odd $q$ and odd $p$ with
