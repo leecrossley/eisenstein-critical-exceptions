@@ -37,7 +37,7 @@ $$
 h_b(\tau)=\frac{\sqrt b\thinspace[b+1-2\sqrt b\cos(\tau\log b)]}{1/4+\tau^2}>0 .
 $$
 
-Neither factor has a central zero. For positive real $s$, the Dirichlet series for $\chi_4$ has positive paired terms. For $\chi_{12}$ each block is $f(12j+1)-f(12j+5)-f(12j+7)+f(12j+11)>0$, since $f(x)=x^{-s}$ has decreasing positive differences $f(x)-f(x+4)$. Grouping complete periods is valid for real $s>0$. The zero sums converge absolutely by the quadratic denominator and standard zero counting. The trivial zeros, including the even character's possible contribution at $s=0$, cost $O_b(1)$ for $y\ge2$.
+Neither factor has a central zero. For positive real $s$, the Dirichlet series for $\chi_4$ has positive paired terms. For $\chi_{12}$ each block is $f(12j+1)-f(12j+5)-f(12j+7)+f(12j+11)>0$, since $f(x)=x^{-s}$ has decreasing positive differences $f(x)-f(x+4)$. Grouping complete periods is valid for real $s>0$. The zero sums converge absolutely by the quadratic denominator and standard zero counting. The trivial zeros, including the even character's zero at $s=0$, cost $O_b(1)$ for $y\ge2$.
 
 Let $\Gamma$ be the union of the **distinct** positive ordinates. For $\tau\in\Gamma$, let $m(\tau)$ count its total multiplicity in both factors, and put $a_\tau=2m(\tau)h_b(\tau)$. The explicit formula and the estimates above give, with some $\eta>0$,
 
