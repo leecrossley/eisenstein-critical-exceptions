@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410852.svg)](https://doi.org/10.5281/zenodo.24410852)
 
+This result is now maintained in [eisenstein-prime-window-transition](https://github.com/leecrossley/eisenstein-prime-window-transition/tree/main/results/eisenstein-critical-exceptions). This repository is archived and keeps its releases and DOI.
+
 At the critical width, the norm-3 class of Eisenstein prime ideals leads the norm-1 class outside a set of **finite logarithmic measure**, assuming GRH for the primitive Dirichlet characters of discriminants $-4$ and $12$. Ties count as exceptions. If exceptions occur arbitrarily late, they force exceptionally accurate odd-over-odd approximations to ratios of actual zero ordinates.
 
 ## The race
