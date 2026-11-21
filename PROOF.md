@@ -55,7 +55,7 @@ The identity uses the exact root, even though its value is specified numerically
 
 ## One zero controls the logarithmic measure
 
-Fix any $\lambda\in\Gamma$. For $d(x)=\operatorname{dist}(x,\pi(2\mathbb Z+1))$ we have $0\le d(x)\le\pi$ and
+Fix any $\lambda\in\Gamma$. For $d(x)=\mathrm{dist}(x,\pi(2\mathbb Z+1))$ we have $0\le d(x)\le\pi$ and
 
 $$
 1+\cos x=2\sin^2(d(x)/2)\ge2d(x)^2/\pi^2.
