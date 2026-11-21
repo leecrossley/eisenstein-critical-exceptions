@@ -33,7 +33,7 @@ The prime number theorem in the fixed class $1\bmod3$ bounds the error in the sq
 
 ## Prior work and verification
 
-Sheth proved a finite-logarithmic-measure theorem for a cumulative mod-4 sum weighted by $1/\sqrt p$. The result here concerns a compact prime-ideal window whose leading drift exactly equals its total zero mass. It gives a tail bound and a necessary approximation condition for arbitrarily late failures. Rubinstein–Sarnak, Devin, Fiorilli–Jouve and Bailleul and coauthors give related distribution, dominance and effective approximation results. [Sheth, Corollary 4.2](https://arxiv.org/abs/2405.01512) · [Comparisons and sources](PROOF.md#earlier-results)
+Sheth proved a finite-logarithmic-measure theorem for a cumulative mod-4 sum weighted by $1/\sqrt p$. The result here concerns a compact prime-ideal window whose leading drift exactly equals its total zero mass. It gives a tail bound and a necessary approximation condition for arbitrarily late failures. Rubinstein–Sarnak, Devin, Fiorilli–Jouve and Bailleul and coauthors give related distribution, dominance and effective approximation results. [Sheth, Corollary 4.2](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/euler-products-at-the-centre-and-applications-to-chebyshevs-bias/1DA1AFD9BE7EBCF9D5B49FE792E55E81) · [Comparisons and sources](PROOF.md#earlier-results)
 
 With Python 3.10 or later in a virtual environment, run
 
