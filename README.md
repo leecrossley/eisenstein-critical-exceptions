@@ -8,8 +8,8 @@ In $\mathbb Q(\sqrt{-3})$ omit the prime ideals above 2 and 3. Let $A_b(y)$ be t
 
 $$
 W_b(t)=\begin{cases}
-b(1-1/t),&1<t\le b,\\
-b^2/t-1,&b<t<b^2,\\
+b(1-1/t),&1 < t\le b,\\
+b^2/t-1,&b < t < b^2,\\
 0,&\text{otherwise}.
 \end{cases}
 $$
@@ -21,7 +21,7 @@ Fix **the exact critical width** $b=b_K$, the unique crossing of the square drif
 Assume the two GRHs. There are constants $c,C>0$ such that, for every sufficiently large $Y$,
 
 $$
-\int_{\{y\ge Y\,:\,A_{b_K}(y)\le0\}}\frac{dy}{y}
+\int_{\lbrace y\ge Y\thinspace:\thinspace A_{b_K}(y)\le0\rbrace}\frac{dy}{y}
 \le C\exp(-c\sqrt{\log Y}).
 $$
 
