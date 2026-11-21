@@ -42,4 +42,4 @@ python3 -m pip install -r requirements.txt
 python3 verify-release.py
 ```
 
-The computations certify two zero brackets and positive coefficient bounds by independent routes. The exceptional-set and eventual-sign implications are written proofs. The approximation condition on the actual ordinates is an additional hypothesis. [Recorded checks](evidence/check.txt) · [SHA-256 manifest](SHA256SUMS) · [Release](https://github.com/leecrossley/eisenstein-critical-exceptions/releases/tag/v1.0.0)
+The computations certify two zero brackets and positive coefficient bounds by independent routes. The exceptional-set and eventual-sign implications are written proofs. The approximation condition on the actual ordinates is an additional hypothesis. [Recorded checks](evidence/check.txt) · [SHA-256 manifest](SHA256SUMS) · [Release](https://github.com/leecrossley/eisenstein-critical-exceptions/releases/tag/v1.0.1)
